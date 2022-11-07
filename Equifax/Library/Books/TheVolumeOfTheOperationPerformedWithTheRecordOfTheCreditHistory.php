@@ -2,7 +2,7 @@
 
 namespace Equifax\ReferenceBooks\Books;
 
-use \Equifax\ReferenceBooks\Books;
+use \Equifax\ReferenceBooks\Book;
 
 /**
  * Класс TheVolumeOfTheOperationPerformedWithTheRecordOfTheCreditHistory
@@ -15,7 +15,7 @@ use \Equifax\ReferenceBooks\Books;
 class TheVolumeOfTheOperationPerformedWithTheRecordOfTheCreditHistory
 {
 
-    use Books;
+    use Book;
 
     /**
      * Значение по умолчанию
