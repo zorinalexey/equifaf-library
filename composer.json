@@ -1,6 +1,6 @@
 {
     "name": "equifax/reference-books",
-    "description": "test",
+    "description": "Библиотека справочников БКИ Equifax",
     "type": "library",
     "license": "MIT",
     "autoload": {
