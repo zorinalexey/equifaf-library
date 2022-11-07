@@ -1,1 +1,1 @@
-# equifaf-library
+# equifax-library

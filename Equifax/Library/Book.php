@@ -35,7 +35,7 @@ trait Book
 
     public static function getLirary()
     {
-        return self::$dats;
+        return self::$data;
     }
 
 }

@@ -2,9 +2,7 @@
 
 namespace Equifax\ReferenceBooks\Books;
 
-if ( ! defined('ROOT')) {
-    exit();
-}
+use \Equifax\ReferenceBooks\Books;
 
 /**
  * Класс ListOfEventsForTheTransferOfCreditHistory
@@ -17,8 +15,9 @@ if ( ! defined('ROOT')) {
 class ListOfEventsForTheTransferOfCreditHistory
 {
 
-    use \Equifax\ReferenceBooks\Books;
+    use Books;
 
+    private static string $default = '1.1';
     private static array $data = [
         'Субъект обратился к источнику с предложением совершить сделку' => '1.1',
         'Источник одобрил обращение субъекта (направил ему оферту) или изменились сведения об обращении' => '1.2',
