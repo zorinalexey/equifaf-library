@@ -2,7 +2,7 @@
 
 namespace Equifax\ReferenceBooks\Books;
 
-use \Equifax\ReferenceBooks\Books;
+use \Equifax\ReferenceBooks\Book;
 
 /**
  * Класс ListOfEventsForTheTransferOfCreditHistory
@@ -15,7 +15,7 @@ use \Equifax\ReferenceBooks\Books;
 class ListOfEventsForTheTransferOfCreditHistory
 {
 
-    use Books;
+    use Book;
 
     private static string $default = '1.1';
     private static array $data = [
