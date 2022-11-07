@@ -1,0 +1,19 @@
+{
+    "name": "equifax/reference-books",
+    "description": "test",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Equifax\\ReferenceBooks\\": "Equifax/Library/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Алексей Зорин",
+            "email": "zorinalexey59292@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
