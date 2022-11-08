@@ -1,5 +1,5 @@
 {
-    "name": "equifax/reference-books",
+    "name": "ploy/equifax-library",
     "description": "Библиотека справочников БКИ Equifax",
     "type": "library",
     "license": "MIT",
